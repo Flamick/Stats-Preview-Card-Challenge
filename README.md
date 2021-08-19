@@ -7,7 +7,7 @@ I struggled a bit with the responsive design of this challenge. I've been focusi
 
 
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://affectionate-visvesvaraya-88559e.netlify.app/)
+- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Live Site URL: [Live Website](https://affectionate-visvesvaraya-88559e.netlify.app/)
 
 -  Mentor - [@Flamick](https://www.frontendmentor.io/profile/flamick)
