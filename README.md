@@ -7,7 +7,7 @@ I struggled a bit with the responsive design of this challenge. I've been focusi
 
 
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/html-css-flexbox-vanilla-javascript-uQURmJAEf)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/html5-and-css-with-sass-to-compile-the-css-7AzncOvEz)
 - Live Site URL: [Live Website](https://affectionate-visvesvaraya-88559e.netlify.app/)
 
 -  Mentor - [@Flamick](https://www.frontendmentor.io/profile/flamick)
