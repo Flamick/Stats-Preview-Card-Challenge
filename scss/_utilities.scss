@@ -1,0 +1,14 @@
+$primary-color: hsl(233, 47%, 7%);
+$secondary-color: hsl(277, 64%, 61%);
+$background-color: hsl(244, 38%, 16%);
+$light-color: hsl(0, 0%, 100%);
+$medium-color: hsla(0, 0%, 100%, 0.75);
+$dark-color: hsla(0, 0%, 100%, 0.6);
+$primary-font: "Inter", sans-serif;
+$secondary-font: "Lexend Deca", sans-serif;
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

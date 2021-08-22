@@ -1,0 +1,123 @@
+@import 'utilities';
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    width: 88%;
+}
+
+#main {
+    background: $primary-color;
+    color: $light-color;
+    padding: 5.4rem 0;
+}
+
+.card {
+    background: $background-color;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    position: relative;
+    margin-bottom: 2.2rem;
+    width: 100%;
+    height: 100%;
+
+    &::after {
+        content: "";
+        background: $secondary-color;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        opacity: .66;
+        filter: brightness(56%) contrast(138%);
+    }
+}
+
+
+
+.hero-img-mobile {
+    border-radius: 10px 10px 0 0;
+    display: block;
+}
+
+.hero-img-desktop {
+    display: none;
+}
+
+.main-content {
+    padding: 0 1.2rem;
+    text-align: center;
+
+    h1 {
+        font-family: $primary-font;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        color: $light-color;
+    }
+
+    p {
+        font-family: $primary-font;
+        font-size: 15px;
+        line-height: 1.6;
+        color: $dark-color;
+        margin-bottom: 2rem;
+    }
+}
+
+.text-color {
+    color: $secondary-color;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    
+    p {
+        color: $dark-color;
+        text-transform: uppercase;
+        font-size: .8rem;
+        font-family: $primary-font;
+    }
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.stat-number {
+    display: block;
+    font-size: 1.6rem;
+    font-family: $primary-font;
+    font-weight: 700;
+    color: $light-color;
+    text-transform: none;
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: $light-color;
+    margin-top: 2rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
+@import 'media';
